@@ -7,45 +7,82 @@
 </head>
 <body>
     <header>
-        <!-- Colocar uma imagem -->
-        <img src="./images/erro_20230606_213818.jpg" alt="Foto Salomão Ferreira Junior"/>
+        <img src="./images/erro_20230606_213818kk.jpg" alt="Foto Salomão Ferreira Junior" style="max-width: 200px; max-height: 300px;"/>
         <h1>Currículo Salomão Ferreira Junior</h1>
 
+        <address>
+            <h4>Email</h4>
+            <a href="mailto:salomao.junior2k22@gmail.com">salomao.junior2k22@gmail.com</a>
+
+            <h4>Fone</h4>
+            <a href="tel:+5535997695915">(35) 9 9769-5915</a>
+
+            <h4>Endereço</h4>
+            <a href="https://">Rua São Lucas, 411, Machado, MG</a>
+        </address>
+
+        <!-- Resumo das Qualificações -->
+        <!-- i italico
+        em italico -->
+        <p>
+            <strong>Formação no curso de Técnico em Informática</strong><br> 
+            <b>Experiência nas linguagens Java, SQL, C (Certificado)</b><br>
+            Atualmente graduando em Sistemas de Informação no <acronym title="Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais">IFSULDEMINAS</acronym> - Campus Machado
+        </p>
         <nav>
            <!-- Menu de navegação do site  -->
+           <ul>
+            <li><a href="#id_objectives">Objetivos</a></li>
+            <li><a href="#id_qualifications">Qualificações</a></li>
+            <li><a href="#id_grad">Formação</a></li>
+            <li><a href="#id_academic_education">Experiência Profissional</a></li>
+            <li><a href="#id_idioms">Idiomas</a></li>
+            <li><a href="#id_hobbies">Hobbies</a></li>
+            <li><a href="#id_portfolio">Portfólio</a></li>
+ 
+           </ul>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section id="id_objectives">
             <h1>Objetivos</h1>
             <p>
                 Meu objetivo é trabalhar em um ambiente desafiador, que estimule o aprendizado contínuo e ofereça oportunidades para o 
                 crescimento profissional. Tenho paixão por programação, principalmente na linguagem Java, estou sempre em busca de novas 
-                formações e boas práticas, com o objetivo de me tornar um desenvolvedor back end altamente competente e capaz de entregar 
+                formações e boas práticas, com o objetivo de me tornar um desenvolvedor <em>Back-End</em> altamente competente e capaz de entregar 
                 soluções de qualidade para os clientes e usuários. Estou comprometido em trabalhar em equipe, colaborando com outros 
                 desenvolvedores e compartilhando conhecimentos para alcançar os melhores resultados.
             </p>
         </section>
 
-        <section>
+        <section id="id_qualifications">
+            <h1>Qualificações</h1>
+            <ul>
+                <li>Experiência de 2 anos com plataforma Java</li>
+                <li>Experiência de 2 anos com plataforma SQL</li>
+
+            </ul>
+        </section>
+
+        <section id="id_grad">
             <h1>Formação</h1>
 
             <h3>Cursos Técnicos</h3>
-            <h4>Técnico em Informática - IFSULDEMINAS - 2019 a 2021</h4>
+            <h4>Técnico em Informática - <acronym title="Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais"><a href="https://portal.ifsuldeminas.edu.br/ " target="_blank">IFSULDEMINAS</a></acronym> - 2019 a 2021</h4>
             <p>Curso Técnico em Informática Integrado</p>
 
             <h3>Cursos</h3>
             <h4>Digital Innovation One - 2022 - XXXX</h4>
-            <p>Cursos sobre Java, SQL, HTML5/CSS3 fornecidos pela plataforma de eLearning DIO</p>
+            <p>Cursos sobre Java, <abbr title="Structured query language">SQL</abbr>, HTML5/CSS3 fornecidos pela plataforma de <em>eLearning</em> <abbr title="Digital Innovation One"><a href="https://www.dio.me/" target="_blank">DIO</a></abbr></p>
 
             <h3>Graduação</h3>
-            <h4>Bacharelado - IFSULDEMINAS - 2022 - 2025</h4>
+            <h4>Bacharelado - <acronym title="Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais"><a href="https://portal.ifsuldeminas.edu.br/" target="_blank">IFSULDEMINAS</a></acronym> - 2022 - 2025</h4>
             <p>Bacharelado em Sistemas de Informação</p>
 
         </section>
 
-        <section>
+        <section id="id_academic_education">
             <h1>Experiência Profissional</h1>
 
             <h3>Camil Alimentos - Santa Amália - 2022 - 2024</h4>
@@ -57,16 +94,39 @@
             <p>Estágio em uma loja de assistência técnica, formatando computadores, fazendo a manutenção básica e limpeza de computadores e atendimento aos clientes.</p>
         </section>
 
-        <section>
+        <section id="id_idioms">
             <h1>Idiomas</h1>
+            <div>
+                <h3>Inglês</h3>
+                <p>Fluent in listening, Fluent int Reading, Write well</p>
+            </div>
+            <div>
+                <h3>Espanhol</h3>
+                <p>Entende bem, Lê bem, Escreve Bem</p>
+            </div>
         </section>
 
-        <section>
+        <section id="id_hobbies">
             <h1>Hobbies</h1>
+            <!-- TODO Colocar como Lista -->
+            <ul>
+                <li>Academia</li>
+                <li>Futebol</li>
+                <li>Música</li>
+                <li>Jogos</li>
+            </ul>
         </section>
 
-        <section>
+        <section id="id_portfolio">
             <h1>Portfólio</h1>
+            <div>
+                <h3>PetSup</h3>
+                <a href="https://github.com/5alomao/PetSup">Acesse o repositório.</a>
+            </div>
+            <div>
+                <h3>BodyLab</h3>
+                <a href="https://github.com/5alomao/BodyLab" target="_blank">Acesse o repositório.</a>
+            </div>
         </section>
 
         <aside>
@@ -76,8 +136,17 @@
     </main>
 
     <footer>
-        <p>Copy</p>
+        <p>Todos os direitos reservados.</p>
         <!-- Colocar menu de navegação -->
+        <ul>
+            <li><a href="#id_objectives">Objetivos</a></li>
+            <li><a href="#id_qualifications">Qualificações</a></li>
+            <li><a href="#id_grad">Formação</a></li>
+            <li><a href="#id_academic_education">Experiência Profissional</a></li>
+            <li><a href="#id_idioms">Idiomas</a></li>
+            <li><a href="#id_hobbies">Hobbies</a></li>
+            <li><a href="#id_portfolio">Portfólio</a></li>
+        </ul>
     </footer>
 </body>
 </html>
