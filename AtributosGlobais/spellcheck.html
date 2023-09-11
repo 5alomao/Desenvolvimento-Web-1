@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br" translate="yes">
+<head>
+    <meta charset="UTF-8">
+
+    <title>SpellCheck</title>
+    <style>
+        input{
+            display: block;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <label for="a">Nome</label>
+        <input tabindex="3" spellcheck="true" type="text" id="a" name="a">
+        <label for="b">CPF</label>
+        <input title="(XX) XXXXX-XXXX" tabindex="1" spellcheck="true" type="text" id="b" name="b">
+        <label for="c">Telefone</label>
+        <!-- Title > tooltip -->
+        <input title="(XX) XXXXX-XXXX" tabindex="2" spellcheck="true" type="text" id="c" name="c">
+        
+        <button tabindex="8" type="reset">Limpar</button>
+        <button title="Cadastrar o Cliente" tabindex="7" type="submit">Enviar</button>
+
+        <p translate="no">Não Traduzir</p>
+    </form>
+
+</body>
+</html>
