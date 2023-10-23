@@ -1,14 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .grid-container {
+    /* height: 100vh; */
     display: grid;
     grid-template-columns: auto auto auto;
     background: purple;
     padding: 5px;
     gap: 2px;
+    justify-items: center;
+    align-items: center;
 }
 
 .item-grid {
     color: #fff;
     background: rgba(255, 255, 255, 0.6);
-    /* border: 1px solid yellow; */
+    border: 1px solid yellow; 
     text-align: center;
+    width: 100px;
+    height: 50px;
+}
+
+.column-element {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    color: white;
+    background: red;
+    width: 100px;
+    height: 200px;
 }
