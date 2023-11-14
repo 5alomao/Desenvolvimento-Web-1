@@ -38,12 +38,12 @@
 }
 
 .logo h1 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: #111;
 }
 
 .logo img {
-    width: 100%;
+    width: 120px;
     border-radius: 100%;
     border: 5px solid #879400;
 }
@@ -167,7 +167,7 @@
 
     .logo h1 {
         font-size: 1.8rem;
-        margin: 20px 0;
+        margin: 40px 0;
         text-align: center;
     }
 
@@ -182,12 +182,17 @@
 
     .item_carro_a_venda {
         grid-template-columns: 1fr;
-        width: 65%;
+        width: 80%;
         height: auto;
         margin: 10px;
     }
 
+    .div-imagem {
+        display: flex;
+        justify-content: center;
+    }
+
     .div-imagem img {
-        width: 75%;
+        width: 85%;
     }
 }
